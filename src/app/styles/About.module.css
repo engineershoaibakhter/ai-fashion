@@ -1,0 +1,135 @@
+.about {
+    background-color: white;
+    color: #082362;
+    padding-top: 30px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Adjust alignment to flex-start to avoid centering */
+    border-radius: 6px;
+}
+
+.container .content {
+    display: flex;
+    align-items: center; /* Adjust alignment to flex-start */
+    justify-content: space-between;
+    border-width: 80px;
+    border-color: #021541;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    gap: 0px; 
+}
+
+.details {
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 1.3em;
+    color: black;
+    font-family: 'Jost', sans-serif;
+}
+
+.leftContent {
+    width: 50%;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: #082362;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 calc(25% - 20px); /* Adjust to 25% minus gap for 4 cards in a row */
+    box-sizing: border-box;
+    max-width: calc(25% - 20px); /* Adjust to 25% minus gap for 4 cards in a row */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 8rem; 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0 !important;
+}
+
+.rightContent {
+    width: 48%; 
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        justify-content: space-around;
+    }
+    .card {
+        flex: 1 1 calc(33.3333% - 20px); /* Adjust to 33.33% minus gap for 3 cards in a row on smaller screens */
+        max-width: calc(33.3333% - 20px);
+    }
+}
+
+@media (max-width: 1020px) {
+    .container {
+        height: 100%;
+    }
+    .container .content {
+        flex-direction: column;
+    }
+    .leftContent,
+    .rightContent {
+        width: 100%;
+    }
+    .leftContent img {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .card {
+        flex: 1 1 calc(50% - 20px); /* Adjust to 50% minus gap for 2 cards in a row on smaller screens */
+        max-width: calc(50% - 20px);
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .container .content {
+        margin: 0px;
+    }
+    .container {
+        margin: 0px;
+        padding: 0px;
+    }
+    .card {
+        flex: 1 1 calc(100% - 20px); /* Adjust to 100% minus gap for 1 card in a row on the smallest screens */
+        max-width: calc(100% - 20px);
+    }
+}

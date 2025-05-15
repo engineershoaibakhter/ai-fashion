@@ -1,0 +1,25 @@
+.locationContainer {
+    margin: 50px 20px;
+  }
+  
+  .locationContainer h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .locationContainer p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .mapContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width:800px){
+    .mapContainer iframe{
+        height: 400px;
+    }
+  }
+  

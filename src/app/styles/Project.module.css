@@ -1,0 +1,151 @@
+.Project{
+  padding-top: 10px;
+    color: white;
+    background-color:#001443;
+  }
+  
+  .Heading{
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    color: white;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.container {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .sliderWrapper {
+    position: relative;
+  }
+  
+  .slideButton {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 50px;
+    z-index: 5;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.2rem;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 12px;
+    color: #001443;
+
+
+  }
+  
+  .leftButton {
+    left: -25px;
+  }
+  
+  .rightButton {
+    right: -25px;
+  }
+  
+  .imageList {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  .imageList::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .imageItemWrapper {
+    flex: 0 0 auto;
+    width: 325px;
+  }
+  
+  .imageItem {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .sliderScrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .scrollbarTrack {
+    background: black;
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .scrollbarTrack:hover {
+    height: 4px;
+  }
+  
+  .scrollbarThumb {
+    position: absolute;
+    background: white;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    cursor: grab;
+    border-radius: inherit;
+    width: 20%;
+
+  }
+  
+  .scrollbarThumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+  }
+  
+  .scrollbarThumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+  }
+  
+  @media only screen and (max-width: 1023px) {
+    .slideButton {
+      display: none !important;
+    }
+  
+    .imageList {
+      gap: 10px;
+      margin-bottom: 15px;
+      scroll-snap-type: x mandatory;
+    }
+  
+    .imageItemWrapper {
+      width: 280px;
+    }
+  
+    .imageItem {
+      height: 380px;
+    }
+  
+    .scrollbarThumb {
+      width: 20%;
+    }
+  }
+  
