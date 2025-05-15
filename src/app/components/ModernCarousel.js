@@ -15,7 +15,7 @@ const ModernCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((current) => (current + 1) % images.length);
-    }, 2000); // Change image every 5 seconds
+    }, 2000);
     
     return () => clearInterval(interval);
   }, []);
