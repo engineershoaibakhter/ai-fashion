@@ -14,7 +14,7 @@ export default function Home() {
    
       <ModernCarousel />
         <Team />
-      {/* <Commercial /> */}
+      <Commercial />
         <Testimonials />
         <About />
         <Location />
