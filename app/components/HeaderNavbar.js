@@ -1,12 +1,10 @@
 "use client";
 import styles from '../styles/HeaderNavbar.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faLocationDot, faPhoneVolume, faClock } from '@fortawesome/free-solid-svg-icons';
 // import { faFacebookF, faTwitter, faYoutube, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faYoutube, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { faPhoneVolume, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
@@ -21,7 +19,7 @@ const HeaderNavbar = () => {
         <span className={styles.BreakLine}>|</span>
         <div className={styles.NumberContainer}>
           <FontAwesomeIcon icon={faPhoneVolume} className={styles.icon} />
-          <h6 className={styles.h6}><Link href="tel:+61392224000" className={styles.phoneLink}>03 9222 4000</Link></h6>
+          <h6 className={styles.h6}><Link href="tel:+61392224000" className={styles.phoneLink}>+61 411 954 728</Link></h6>
         </div>
       </div>
       <div className={styles.LeftContent}>
