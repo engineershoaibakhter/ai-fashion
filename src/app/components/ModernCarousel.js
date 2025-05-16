@@ -5,18 +5,15 @@ import styles from "../styles/ModernCarousel.module.css";
 import Image from "next/image";
 
 const ModernCarousel = () => {
- const [activeIndex, setActiveIndex] = useState(0);
-  const images = [
-    "/images/fashion1.jpg", 
-    "/images/astoncarousel.jpg"
-  ];
+  const [activeIndex, setActiveIndex] = useState(0);
+  const images = ["/images/fashion1.jpg", "/images/banner3.jpg"];
 
   // Auto-rotate images
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((current) => (current + 1) % images.length);
-    }, 2000);
-    
+    }, 3000);
+
     return () => clearInterval(interval);
   }, []);
 
@@ -24,9 +21,11 @@ const ModernCarousel = () => {
     <div className={styles.carousel}>
       <div className={styles.slides}>
         {images.map((src, index) => (
-          <div 
+          <div
             key={index}
-            className={`${styles.slide} ${index === activeIndex ? styles.active : ''}`}
+            className={`${styles.slide} ${
+              index === activeIndex ? styles.active : ""
+            }`}
           >
             <Image
               src={src}
@@ -38,18 +37,6 @@ const ModernCarousel = () => {
             />
           </div>
         ))}
-
-        <div className={styles.text}>
-          <h1>
-            We Build{" "}
-          </h1>
-          <h2>
-          <span className={styles.dynamicTextContainer}>
-              <span className={styles.dynamicText}></span>
-            </span>
-          </h2>
-            
-        </div>
       </div>
     </div>
   );
