@@ -1,0 +1,26 @@
+.Container{
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Button{
+    background-color: #1C1C1C;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+}
+.Button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #1C1C1C;
+}

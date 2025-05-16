@@ -1,0 +1,68 @@
+.Partners {
+  background: white;
+  height: auto;
+  padding: 30px 0px;
+}
+
+.h2 {
+  color: #082360;
+  font-weight: 700;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  padding-left: 20px;
+  text-align: center;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-260px * 7)); }
+}
+
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slideTrack {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  width: calc(260px * 14);
+  justify-content: space-between; /* Ensure equal spacing between slides */
+}
+
+.slide {
+  height: 150px;
+  width: 250px;
+  margin: 0 30px; /* Adjust margin to control spacing */
+  display: flex; /* Flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative; /* Needed for next/image to fill container */
+  padding: 0 20px; /* Adding padding to ensure equal spacing */
+}
