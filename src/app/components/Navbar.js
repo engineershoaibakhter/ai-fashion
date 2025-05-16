@@ -20,11 +20,13 @@ const NavbarWeb = () => {
     <div className={styles.navbar}>
       <div className={styles.logo}>
         <Link href={'/'}>
-        <Image src={'/SVGS-03.svg'} alt="Company Logo" className={styles.logoImage} filllayout="responsive" width={200} height={150} objectFit="cover"/>
+        <Image src={'/weblogo.png'} alt="Company Logo" className={styles.logoImage} filllayout="responsive" width={200} height={100} objectFit="cover"/>
         </Link>      
       </div>
       <div className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
         <Link href="/" onClick={closeMenu}>Home</Link>
+        <Link href="/#projects" onClick={closeMenu}>Projects</Link>
+        <Link href="/#partners" onClick={closeMenu}>Partners</Link>
         <Link href="/#contact_us" onClick={closeMenu}>Contact Us</Link>
       </div>
       <div className={styles.hamburger} onClick={toggleMenu}>

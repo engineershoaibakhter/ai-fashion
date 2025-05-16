@@ -1,56 +1,260 @@
 .carousel {
-  position: relative;
-  width: 100%;
-  height: 500px; /* Adjust the height as needed */
-  overflow: hidden;
-}
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .text h1 {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 3.8em;
+    line-height: 1.2;
+    vertical-align: middle;
+  }
 
-.slides {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
+  .text h2{
+    display: inline;
+    /* font-size: 2em; */
+  }
+  
+  .dynamicTextContainer {
+    display: inline-block;
+    background-color: #001443;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1.2;
+    vertical-align: middle;
+  }
+  
+  .dynamicText {
+    font-size: 1.8em;
+    display: inline-block;
+    animation: slide-in 6s infinite;
+    line-height: 1.2;
+    vertical-align: middle;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes changeText {
+    0%, 33.33% {
+      content: "Communities";
+    }
+    33.34%, 66.66% {
+      content: "Prosperity";
+    }
+    66.67%, 100% {
+      content: "Partnerships";
+    }
+  }
+  
+  .dynamicText::before {
+    content: "Communities";
+    animation: changeTextContent 18s infinite;
+  }
+  
+  @keyframes changeTextContent {
+    0%, 33.33% {
+      content: "Communities";
+    }
+    33.34%, 66.66% {
+      content: "Prosperity";
+    }
+    66.67%, 100% {
+      content: "Partnerships";
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .carousel {
+      height: 85vh;
+    }
+    
+    .text {
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .text h1 {
+        font-size: 2.1em;
+    }
+    .dynamicText {
+        font-size: 1.5em;
+      }
+  }
 
-.slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  z-index: 1;
-}
+  @media screen and (min-width: 300px) {
+    .carousel {
+        height: 88vh;
+      }
+    .text h1 {
+        font-size: 1.4em;
+        margin-top: 5px;
+    }
+    .dynamicText {
+        font-size: 1em;
+      }
+  }
 
-.slide.active {
-  opacity: 1;
-  z-index: 2;
-}
+  @media screen and (min-width: 344px) {
+    .carousel {
+        height: 88vh;
+      }
+    .text h1 {
+        font-size: 1.3em;
+    }
+    .dynamicText {
+        font-size: 1em;
+      }
+  }
+  
+  @media screen and (min-width: 360px) {
+    .carousel {
+      height: 86vh;
+    }
+    .text h1 {
+        font-size: 1.6em;
+    }
+    .dynamicText {
+        font-size: 1.2em;
+      }
+  }
+  
+  @media screen and (min-width: 375px) {
+    .carousel {
+      height: 85vh;
+    }
+  }
+  
+  @media screen and (min-width: 390px) {
+    .carousel {
+      height: 88vh;
+    }
+  }
+  
+  @media screen and (min-width: 412px) {
+    .carousel {
+      height: 90vh;
+    }
+    .text h1 {
+        font-size: 1.8em;
+    }
+    .dynamicText {
+        font-size: 1.3em;
+      }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .carousel {
+      height: 85vh;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .carousel {
+      height: 90vh;
+    }
 
-.carouselImage {
-  object-fit: cover;
-}
+    .text h1 {
+        font-size: 3em;
+    }
+    .dynamicText {
+        font-size: 2em;
+      }
+    
+  }
+  
+  @media screen and (min-width: 820px) {
+    .carousel {
+        height: 92vh;
+      }
+  }
+  
+  @media screen and (min-width: 860px) {
+    .carousel {
+      height: 80vh;
+    }
+    /* .text h1 {
+      font-size: 40px;
+    } */
+  }
+  
+  @media screen and (min-width: 912px) {
+    .carousel {
+      height: 92vh;
+    }
+    /* .text h1 {
+      font-size: 60px;
+    } */
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .carousel {
+      height: 93vh;
+    }
 
-/* Optional indicators styling */
-.indicators {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  z-index: 3;
-}
+    .text h1 {
+        font-size: 5em;
+    }
+    .dynamicText {
+        font-size: 2.8em;
+      }
+    
+  }
+  
+  @media screen and (min-width: 1025px) {
+    .carousel {
+      height: 83vh;
+    }
+    /* .text {
+      bottom: 80px;
+      left: 20px;
+    } */
+     
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .carousel {
+      height: 87vh;
+    }
+  }
 
-.indicator {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
-  margin: 0 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.activeIndicator {
-  background-color: white;
-}
+  @media screen and (min-width: 1500px) {
+    .carousel {
+      height: 96vh;
+    }
+  }
+  

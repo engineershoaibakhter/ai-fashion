@@ -3,6 +3,7 @@ import './globals.css';
 import Location from "./components/Location"
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Partners from "./components/Partners";
 import Testimonials from "./components/Testimonials";
 import Team from "./components/Team";
 import ModernCarousel from "./components/ModernCarousel";
@@ -15,6 +16,7 @@ export default function Home() {
       <ModernCarousel />
         <Team />
       <Commercial />
+        <Partners />
         <Testimonials />
         <About />
         <Location />
