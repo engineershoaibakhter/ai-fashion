@@ -1,4 +1,4 @@
-.contact_us{
+.contact_us {
   color: black;
   background-color: white;
 }
@@ -16,16 +16,16 @@
 }
 
 .rightSection {
-  background: #082362;
+  background: #ef4023;
   padding: 20px;
   /* border-radius: 30px; */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   color: white;
 }
 
 .h2 {
-  color: #082362;
+  color: #ef4023;
   font-size: 1.5em;
   text-align: left;
   font-weight: 700;
@@ -37,18 +37,16 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-
 }
 
-.leftSection h2{
-  color: #082362;
+.leftSection h2 {
+  color: #ef4023;
   font-weight: 700;
   font-size: 1.5em;
 }
 
-.leftSection p{
+.leftSection p {
   font-size: 1.2em;
-
 }
 
 .detailItem {
@@ -61,7 +59,7 @@
 
 .icon {
   font-size: 30px;
-  color: #082362;
+  color: #ef4023;
   margin-right: 10px;
   padding: 10px;
   border-radius: 50px;
@@ -77,14 +75,14 @@
 .detailItem h3 {
   margin: 0;
   font-size: 1.2em;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 600;
 }
 
 .detailItem p {
   margin: 0;
   font-size: 0.9em;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 .contactForm {
@@ -115,7 +113,7 @@
 .formGroup textarea {
   width: 100%;
   padding: 10px 15px;
-  border: 1px solid #5f656b ;
+  border: 1px solid #5f656b;
   /* border-radius: 15px; */
   font-size: 1em;
   background-color: #ffffff;
@@ -128,7 +126,7 @@
 }
 
 .formGroup input::placeholder,
-.formGroup textarea::placeholder{
+.formGroup textarea::placeholder {
   color: #787e84;
 }
 
@@ -140,7 +138,7 @@
   /* border-radius: 15px; */
   cursor: pointer;
   height: 45px;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 600;
   font-size: 1em;
 }
@@ -156,7 +154,6 @@
   margin-top: 1rem;
   font-weight: bold;
 }
-
 
 @media (min-width: 768px) {
   .contactContainer {

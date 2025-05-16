@@ -26,15 +26,15 @@ const Contact = () => {
               <FontAwesomeIcon icon={faPhoneVolume} className={styles.icon} />
               <div className={styles.topic}>Phone</div>
               <div className={styles.textOne}>
-                <Link href="tel:+61392224000">+61 411 954 728</Link>
+                <Link href="tel:+61392224000" className={styles.link}>+61 411 954 728</Link>
               </div>
             </div>
             <div className={`${styles.details} ${styles.email}`}>
               <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
               <div className={styles.topic}>Email</div>
-              <div className={styles.textOne}>
-                <Link href="mailto:info@bcacorp.com.au">
-                  info@bcacorp.com.au
+              <div className={styles.textOne} >
+                <Link href="mailto:info@aifashion.com.au" className={styles.link}>
+                  info@aifashion.com.au
                 </Link>
               </div>
             </div>

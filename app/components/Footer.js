@@ -91,8 +91,8 @@ const Footer = () => {
                 <Link href="tel:+61392224000">+61 411 954 728</Link>
               </li>
               <li>
-                <Link href="mailto:info@bcacorp.com.au">
-                  info@bcacorp.com.au
+                <Link href="mailto:info@aifashion.com.au">
+                  info@aifashion.com.au
                 </Link>
               </li>
             </ul>

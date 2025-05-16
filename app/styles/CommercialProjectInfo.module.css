@@ -74,7 +74,7 @@
 }
 
 .mapLink {
-  color: #082362;
+  color: #ef4023;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  background: #082362;
+  background: #ef4023;
   color: white;
   min-width: 150px;
 }
@@ -105,7 +105,6 @@
 }
 
 .disabledButton {
-
   max-width: fit-content;
 }
 
@@ -119,29 +118,28 @@
   .rightContent {
     flex: 1 1 100%;
   }
-  .buttons{
+  .buttons {
     margin: 0 10px;
   }
 
   .updateButton {
     padding: 10px 10px;
-  min-width: 150px;
+    min-width: 150px;
   }
 }
 
 @media (max-width: 400px) {
-
-  .buttons{
+  .buttons {
     margin: 0 5px;
   }
 
-  .disabledButton{
+  .disabledButton {
     /* max-width: 100px; */
     padding: 10px 5px;
   }
 
   .updateButton {
     padding: 10px 5px;
-  min-width: 100px;
+    min-width: 100px;
   }
 }
