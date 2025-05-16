@@ -44,16 +44,15 @@ const Testimonials = () => {
       leasingLink: "",
       detailsLink: "/wollert",
     },
-    ,
-    {
-      companyImage: "/images/coming soon.jpg",
-      companyLocation: "VIC, Toorak",
-      companyProjectName: "Orrong Tower",
-      companyInfo: "Boutique architecturally designed apartment block soon.",
-      leasingLink: "",
-      detailsLink: "/orrongtower",
-    },
-    ,
+    
+    // {
+    //   companyImage: "/images/coming soon.jpg",
+    //   companyLocation: "VIC, Toorak",
+    //   companyProjectName: "Orrong Tower",
+    //   companyInfo: "Boutique architecturally designed apartment block soon.",
+    //   leasingLink: "",
+    //   detailsLink: "/orrongtower",
+    // },
     {
       companyImage: "/images/commercial/iroomo.jpg",
       companyLocation: "VIC, Thornhill Park",
