@@ -13,7 +13,7 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      companyImage: "/images/commercial/THRONHILL_PARK-110.jpg",
+      companyImage: "/images/pilot-programs.jpg",
       companyLocation: "VIC, Thornhill Park",
       companyProjectName: "Pilot Programs",
       companyInfo: "Case studies or showcases of your early-stage deployments (e.g., initial retailers using the platform in Melbourne).",
@@ -21,7 +21,7 @@ const Testimonials = () => {
       detailsLink: "/",
     },
     {
-      companyImage: "/images/commercial/aston.jpg",
+      companyImage: "/images/retailer-integrations.jpg",
       companyLocation: "VIC, Craigieburn",
       companyProjectName: "Retailer Integrations",
       companyInfo: "Projects showing how fashion retailers integrated your tech — including API work, fitting workflows, and sales results.",
@@ -29,7 +29,7 @@ const Testimonials = () => {
       detailsLink: "/",
     },
     {
-      companyImage: "/images/coming soon.jpg",
+      companyImage: "/images/technology-in-action.jpg",
       companyLocation: "VIC, Clyde North",
       companyProjectName: "Technology in Action",
       companyInfo: "Highlight the core AI features used in real-world settings: virtual fitting rooms, LiDAR-based scanning, and personalized style engines.",
@@ -37,7 +37,7 @@ const Testimonials = () => {
       detailsLink: "/",
     },
     {
-      companyImage: "/images/commercial/woolert.jpg",
+      companyImage: "/images/sustainability-impact.jpg",
       companyLocation: "VIC, Wollert",
       companyProjectName: "Sustainability Impact",
       companyInfo: "Projects that show how your platform helps reduce carbon emissions and waste (fewer returns, smarter stock management).",
