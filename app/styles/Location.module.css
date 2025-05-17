@@ -1,5 +1,5 @@
 .location {
-  background-color: #082362;
+  background-color: #ef4023;
   color: white;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .content .left-side::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 70%;
   width: 2px;
@@ -68,7 +68,9 @@
   justify-content: center; /* Center items horizontally */
 }
 
-.phone, .address, .email {
+.phone,
+.address,
+.email {
   text-align: center;
   margin-top: 5vh;
   color: white;
@@ -77,6 +79,9 @@
 .content .left-side .details .text-one,
 .content .left-side .details .text-two {
   font-size: 14px;
+}
+.link{
+  color:white;
 }
 
 .container .content .right-side {
@@ -130,22 +135,21 @@
   width: 100%;
 }
 
-.textOne, .textTwo {
+.textOne,
+.textTwo {
   color: white;
 }
 
-.textOne a{
-  color:white
-}
-
 @media screen and (max-width: 3000px) {
-  .phone, .address, .email {
+  .phone,
+  .address,
+  .email {
     margin-top: 1vh;
   }
 }
 
 .icon {
-  color: white; 
+  color: white;
   padding: 6px 10px;
   border-radius: 50%;
 }

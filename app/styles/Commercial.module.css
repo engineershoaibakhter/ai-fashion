@@ -1,7 +1,7 @@
 .Project {
-    color: white;
-  background-color: #001443;
-  font-family: 'Jost', sans-serif;
+  color: white;
+  background-color: #ef4023;
+  font-family: "Jost", sans-serif;
   /* min-height: 100vh; */
   padding: 20px 0px;
 }
@@ -21,9 +21,9 @@
 
 .description {
   line-height: 1.5;
-  color: #c6c5c5;
+  color: white;
   font-size: 1.1em;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   text-align: start;
   padding: 0 20px;
 }
@@ -33,8 +33,6 @@
   width: 100%;
   margin: 0 auto;
   margin-bottom: 0px;
- 
-
 }
 
 .sliderWrapper {
@@ -46,7 +44,7 @@
   top: 50%;
   outline: none;
   border-radius: 12px;
-  border-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, 0.1);
   /* height: 45px;
   width: 50px; */
   /* min-height: 5vh !important;
@@ -61,7 +59,7 @@
   /* justify-content: center; */
   transform: translateY(-50%);
   /* border-width: 1px; */
-  color: #07294d;
+  color: #ef4023;
   background-color: white;
 }
 
@@ -98,7 +96,7 @@
   height: 500px;
   object-fit: cover;
   /* border-radius: 40px; */
-  border:1px solid rgba(255, 255, 255, .2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: #fff;
 }
 
@@ -117,10 +115,9 @@
   -webkit-filter: none;
 }
 
-.CompanyLogoImage{
+.CompanyLogoImage {
   width: 100%;
   height: 100%;
-
 }
 
 .companyContent {
@@ -132,7 +129,7 @@
 
 .companyName {
   text-align: start;
-  color: rgb(250,123,37);
+  color: rgb(250, 123, 37);
   font-weight: 600;
   font-size: 1.5em;
 }
@@ -141,7 +138,6 @@
   text-align: start;
   font-weight: 600;
   font-size: 1em;
-
 }
 
 .row {
@@ -169,10 +165,9 @@
 
 .authorPosition {
   font-size: 0.9em;
-  font-family: 'Jost', sans-serif;
-text-align: start;
+  font-family: "Jost", sans-serif;
+  text-align: start;
 }
-
 
 .cardContent {
   padding: 20px;
@@ -191,7 +186,6 @@ text-align: start;
   font-weight: bold;
   margin-bottom: 10px;
   color: black;
-
 }
 
 .features {
@@ -207,7 +201,6 @@ text-align: start;
   max-height: 1em;
 }
 
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -222,11 +215,11 @@ text-align: start;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  background: #082362;
-  color: white; 
+  background: #ef4023;
+  color: white;
 }
 
-.leasingButton{
+.leasingButton {
   max-width: fit-content;
   /* padding: 10px 30px; */
 }
@@ -239,21 +232,17 @@ text-align: start;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  background: #082362;
+  background: #ef4023;
   color: white;
 }
 
-.detailsLink:hover,.leasing:hover {
+.detailsLink:hover,
+.leasing:hover {
   text-decoration: none;
-    background: #0e3dab;
+  background: #ff0000;
 }
 
-
-
-
-
 @media only screen and (max-width: 750px) {
-
   .imageList {
     scroll-snap-type: x mandatory;
   }
@@ -264,16 +253,15 @@ text-align: start;
   }
 
   .imageItem {
-  /* height: 50vh; */
+    /* height: 50vh; */
     width: 100%;
   }
-
 
   .companyInfo {
     min-height: 5vh;
   }
 
-  .leasingButton{
+  .leasingButton {
     padding: 10px 20px;
   }
 }
@@ -293,21 +281,20 @@ text-align: start;
     line-height: normal;
     max-height: none;
   }
-  .imageItem{
-  /* height: 60vh; */
+  .imageItem {
+    /* height: 60vh; */
   }
-  .slideButton{
+  .slideButton {
     top: 40%;
   }
 }
 
-@media screen and (max-width:500px){
-  .slideButton{
+@media screen and (max-width: 500px) {
+  .slideButton {
     /* height: 40px;
     width: 40px; */
   }
 }
-
 
 @media screen and (max-width: 490px) {
   .leasing {
@@ -317,10 +304,7 @@ text-align: start;
   .detailsLink {
     font-size: 0.7em;
   }
-  .imageItem{
+  .imageItem {
     /* height: 40vh; */
-    }
-} 
-
-
-
+  }
+}
