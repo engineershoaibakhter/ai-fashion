@@ -1,5 +1,5 @@
 .main_footer {
-  background-color: #ef4023;
+  background-color: #082360;
   color: white;
 }
 .footer {
@@ -35,19 +35,19 @@
 }
 
 .links p {
-  color: white;
+  color: #bfbfbf;
 }
 
 .links li {
   list-style: none;
   margin-bottom: 10px;
-  color: white;
+  color: #bfbfbf;
 
 }
 
 .links li a {
   text-decoration: none;
-  color: white;
+  color: #bfbfbf;
 }
 
 .links li a:hover {
@@ -71,12 +71,12 @@
 .copyright {
   text-align: center;
   padding: 10px 0px;
-  background-color: #ff0000;
+  background-color: #001443;
 }
 
 .copyright p {
   margin-bottom: 0px;
-  color: white;
+  color: #bfbfbf;
 }
 
 @media (max-width: 1000px) {

@@ -16,33 +16,31 @@ const Testimonials = () => {
   const testimonials = [
     {
       companyLogo: "/images/testimonials/igatestimonials.svg",
-      companyInfo:
-        "Working with AI Fashion has been a game-changer for our supermarket. Their proactive collaboration and seamless integration have significantly assisted us in smooth supermarket mobilisation. The intuitive design and reliability of their system have not only streamlined our processes but also improved our overall efficiency. Their support team is responsive and knowledgeable, making the transition smooth and hassle-free. We highly recommend AI Fashion to any business looking to partner with them and  achieve tangible results.",
-      authorName: "Tripti Gupta",
-      authorPosition: "IGA",
+      companyInfo:"Partnering with AI Fashion has completely transformed how our customers shop. The precision of their AI fitting tool drastically reduced our return rates, and the virtual try-on experience has boosted customer confidence. It’s like having a digital fitting room on every product page. Our team felt supported every step of the way.",
+      authorName: "Alex Tran",
+      authorPosition: "StyleTheory Australia",
       imgSrc: "/images/testimonials/firstImage.png",
     },
     {
       companyLogo: "/images/clients/cleanlarge.png",
       companyInfo:
-        "Working with Ankur and Michael from AI Fashion at Central Square has been a truly exceptional experience. From our first interaction, their professionalism and commitment to excellence were evident. They made the entire process remarkably easy, ensuring that all our needs were met with a friendly and approachable demeanor. Ankur and Michael were consistently responsive, addressing our enquiries and concerns promptly, which greatly facilitated our collaboration. Their proactive communication and attention to detail made us feel valued and confident in every decision.",
-      authorName: "David",
-      authorPosition: "Clean Streak Laundry",
+        "The AI Fashion platform delivered beyond expectations. We saw a measurable 28% drop in returns within just 3 months. What really stood out was their generative design tool — it allowed us to offer custom-fit designs that delighted our audience. Their integration with Shopify was seamless.",
+      authorName: "Meera Patel",
+      authorPosition: "Founder, Urban Thread",
       imgSrc: "/images/testimonials/fourImage.png",
     },
-    // {
-    //   companyLogo: "/images/clients/anytimeheader-logo.png",
-    //   companyInfo: "Partnering with Verida to enhance their offerings with NEAR features is exciting. The upcoming Verida Wallet will enable seamless DIDs and messaging for NEAR users, simplifying the adoption of Web3 technologies and making it more accessible for everyday users, businesses man, developers.",
-    //   authorName: "Illia Polosukhin",
-    //   authorPosition: "Anytime Fitness",
-    //   imgSrc: "/images/testimonials/secondImage.png"
-    // },
+    {
+      companyLogo: "/images/clients/anytimeheader-logo.png",
+      companyInfo: "The technology speaks for itself — our customers are happier, our operations are leaner, and we’re proud to reduce our carbon footprint thanks to fewer returns. The AI Fashion team was responsive, strategic, and ahead of the curve. Highly recommended for any forward-thinking fashion brand.",
+      authorName: "Liam Jennings",
+      authorPosition: "Creative Director, Edgewear",
+      imgSrc: "/images/testimonials/secondImage.png"
+    },
     {
       companyLogo: "/images/clients/subway.png",
-      companyInfo:
-        "Subway Thornhill Park is thrilled to have partnered with AI Fashion for our latest store in Thornhill Park. AI Fashion's exceptional expertise and commitment to excellence were evident throughout the entire process. From the initial design phase to the final build, their team demonstrated remarkable professionalism and attention to detail.We look forward to collaborating with AI Fashion on future projects and highly recommend their services to any organization seeking a reliable and innovative development partner.",
-      authorName: "Jolly",
-      authorPosition: "Subway",
+     companyInfo:"Partnering with AI Fashion has completely transformed how our customers shop. The precision of their AI fitting tool drastically reduced our return rates, and the virtual try-on experience has boosted customer confidence. It’s like having a digital fitting room on every product page. Our team felt supported every step of the way.",
+      authorName: "Alex Tran",
+      authorPosition: "StyleTheory Australia",
       imgSrc: "/images/testimonials/thirdImage.png",
     },
   ];
