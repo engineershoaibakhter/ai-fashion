@@ -8,11 +8,11 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AI FASHION | Expert Property Development & Management in Australia",
+  title: "AI FASHION | AI-Powered Fashion Designer Platform in Australia",
   description:
-    "AI FASHION specializes in town planning, project management, and construction, delivering high-performance commercial and residential spaces across Australia.",
+    "AI FASHION specializes in Generative Design, AI Size & Style Engine,Demand Forecasting, Funds Management, Virtual Try-On and 3D Body Scanning across Australia.",
   keywords:
-    "Property Development, Project Management, Town Planning, Real Estate Sales, Construction, Investment, Melbourne, Thornhill Park, Craigieburn, Clyde Square, Wollert, Orrong Tower, Iramoo Waters",
+    "Generative Design, AI Size & Style Engine,Demand Forecasting, Funds Management, Virtual Try-On and 3D Body Scanning",
 };
 
 export default function RootLayout({ children }) {
