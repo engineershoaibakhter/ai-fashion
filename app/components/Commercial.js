@@ -129,8 +129,8 @@ const Testimonials = () => {
       <div className={styles.header}>
            <h2 className={styles.title}>Our Projects</h2>
            <p className={styles.description}>
-             High performance businesses need high-performance places to function as the engine-rooms of their success. From the home of Australia’s biggest blue-chip companies to world-class innovation precincts supporting the next wave of entrepreneurs, our commercial neighbourhoods are fueling the future of work.
-           </p>
+            Experience perfectly tailored fashion with our AI-Powered Fashion Designer — merging LiDAR precision, 3D scanning, and generative design to transform your shopping experience.
+            </p>
          </div>
       <div className={styles.container}>
         <div className={styles.sliderWrapper}>

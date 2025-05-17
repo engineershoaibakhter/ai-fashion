@@ -107,7 +107,8 @@ const About = () => {
                     ></path>
                   </g>
                 </svg>
-                <p>Town Planning</p>
+                
+                <p>3D Body Scanning</p>
               </div>
 
               <div className={styles.card}>
@@ -239,7 +240,7 @@ const About = () => {
                     </g>
                   </g>
                 </svg>
-                <p>Project Management</p>
+                <p>AI Size & Style Engine</p>
               </div>
 
               <div className={styles.card}>
@@ -504,7 +505,7 @@ const About = () => {
                     ></path>
                   </g>
                 </svg>
-                <p>Civil & Built Form Construction</p>
+                <p>Generative Design</p>
               </div>
 
               <div className={styles.card}>
@@ -541,7 +542,7 @@ const About = () => {
                     ></path>
                   </g>
                 </svg>
-                <p>Real Estate Sales & Marketing</p>
+                <p>Virtual Try-On</p>
               </div>
 
               <div className={styles.card}>
@@ -641,7 +642,7 @@ const About = () => {
                     ></path>
                   </g>
                 </svg>
-                <p>Funds Management</p>
+                <p>Demand Forecasting</p>
               </div>
 
               <div className={styles.card}>
@@ -773,7 +774,7 @@ const About = () => {
                     </g>
                   </g>
                 </svg>
-                <p>Site Acquisition</p>
+                <p>E-Commerce Integration</p>
               </div>
 
               <div className={styles.card}>
@@ -1038,7 +1039,7 @@ const About = () => {
                     ></path>
                   </g>
                 </svg>
-                <p>Development Management</p>
+                <p>Platform Scalability</p>
               </div>
 
               <div className={styles.card}>
@@ -1075,7 +1076,7 @@ const About = () => {
                     ></path>
                   </g>
                 </svg>
-                <p>Construction Management</p>
+                <p>Sustainability Insights</p>
               </div>
 
               <div className={styles.card}>
@@ -1175,7 +1176,7 @@ const About = () => {
                     ></path>
                   </g>
                 </svg>
-                <p>Development Funding</p>
+                <p>Demand Forecasting</p>
               </div>
 
               <div className={styles.card}>
@@ -1307,7 +1308,7 @@ const About = () => {
                     </g>
                   </g>
                 </svg>
-                <p>Joint Ventures</p>
+                <p>Dedicated Support</p>
               </div>
             </div>
           </div>
@@ -1316,35 +1317,19 @@ const About = () => {
             {/* <p className={styles.paragraph}>AI Fashion’s experienced and passionate leadership team focus on wealth creation for the investors while delivering assets for the community that all involved could be proud of.</p> */}
             {/* <p className={styles.paragraph}>AI Fashion is an end-to-end property investor company that takes responsibility for all property development requirements for the investors.</p> */}
             <p className={styles.paragraph}>
-              AI Fashion’s experienced and passionate leadership team focuses on
-              wealth creation for investors while delivering assets for the
-              community that all involved can be proud of. Their commitment to
-              excellence ensures that each project not only meets but exceeds
-              expectations.
+              At AI Fashion Pty Ltd, we are redefining what it means to shop for clothing online. Based in Melbourne, our mission is to solve the challenges of online fashion retail — from inconsistent sizing and high return rates to unsustainable logistics and generic product experiences.
             </p>
             <p className={styles.paragraph}>
-              AI Fashion is an end-to-end property investor company that takes
-              responsibility for all property development requirements for
-              investors. This comprehensive approach allows them to manage every
-              stage, from planning and construction to management and sales.
+              We’ve developed a cutting-edge AI-Powered Fashion Designer that blends photogrammetric and LiDAR 3D body scanning with intelligent style prediction and generative design. Our platform empowers fashion brands and retailers to offer highly personalized, low-return, and environmentally conscious shopping experiences.
             </p>
             <p className={styles.paragraph}>
-              The team at AI Fashion emphasizes sustainability and innovation in
-              all their projects. By integrating green building practices and
-              the latest technologies, they create future-proof developments
-              that benefit both investors and communities.
+              We proudly launched our MVP in April 2025 and have already seen remarkable results with our pilot partners — including 2% deviation in body scan accuracy and a 4.2/5 user satisfaction rating, surpassing the industry average.
             </p>
             <p className={styles.paragraph}>
-              Investor satisfaction is a top priority for AI Fashion. Their
-              transparent processes, regular updates, and personalized service
-              ensure that investors are informed and confident throughout their
-              investment journey.
+              Our SaaS model scales with your growth. Seamless integrations with Shopify, Magento, and custom e-commerce systems allow fashion businesses to start fast and evolve quickly — backed by analytics, carbon-saving reports, and demand forecasting features.
             </p>
             <p className={styles.paragraph}>
-              AI Fashion’s success is built on strong partnerships with
-              stakeholders, including architects, contractors, and local
-              authorities. These collaborations enable them to deliver
-              high-quality developments on time and within budget.
+              At AI Fashion, we believe the future of fashion is personal, sustainable, and AI-driven.
             </p>
           </div>
         </div>
