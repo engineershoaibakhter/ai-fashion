@@ -20,9 +20,7 @@ const Footer = () => {
             <ul className={styles.links}>
               <h4>BCA CORP</h4>
               <p>
-                BCA Corp’s experienced and passionate leadership team focuses on
-                wealth creation for investors while delivering assets for the
-                community that all involved can be proud of.
+                AI Fashion Pty Ltd was founded in Melbourne with a vision to transform the way people shop for clothes online. Our AI-Powered Fashion Designer platform reduces high return rates, improves fit accuracy, and enables immersive, hyper-personalized experiences through virtual try-ons and AI-driven style suggestions.
               </p>
               <li className={styles.socialIcons}>
                 <Link
@@ -70,16 +68,13 @@ const Footer = () => {
           <div className={styles.footerCol}>
             <ul className={styles.links}>
               <h4>SERVICES</h4>
-              <li>Town Planning</li>
-              <li>Project Management</li>
-              <li>Civil & Built Form Construction</li>
-              <li>Real Estate Sales & Marketing</li>
+              <li>3D Body Scanning</li>
+              <li>AI Size & Style Engine</li>
+              <li>Generative Design</li>
+              <li>Virtual Try-On</li>
               <li>Funds Management</li>
-              <li>Site Acquisition</li>
-              <li>Development Management</li>
-              <li>Construction Management</li>
-              <li>Development Funding</li>
-              <li>Joint Ventures</li>
+              <li>Demand Forecasting</li>
+              <li>E-Commerce Integration</li>
             </ul>
           </div>
 
@@ -100,7 +95,7 @@ const Footer = () => {
         </div>
       </section>
       <div className={styles.copyright}>
-        <p>Copyright {currentYear} - BCA Corp | All Rights Reserved</p>
+        <p>Copyright {currentYear} - AI Fashion | All Rights Reserved</p>
       </div>
     </div>
   );

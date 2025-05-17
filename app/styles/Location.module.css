@@ -134,6 +134,10 @@
   color: white;
 }
 
+.textOne a{
+  color:white
+}
+
 @media screen and (max-width: 3000px) {
   .phone, .address, .email {
     margin-top: 1vh;
